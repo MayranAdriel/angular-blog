@@ -1,0 +1,5 @@
+.home-left-and-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
