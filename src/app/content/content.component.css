@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.photo a {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.photo a:hover {
+  color: grey;
+  transition: all .6s;
+}
+
+.photo img {
+  width: 450px;
+  height: 300px;
+  border: solid 5px grey;
+  border-radius: 10px;
+ }
+
+ .title {
+  text-align: center;
+  width: 50%;
+  margin-top: 30px;
+ }
+
+ .description {
+  margin-top: 20px;
+  width: 60%;
+  text-align: center;
+ }
+
+ .description p {
+  color: grey;
+ }
